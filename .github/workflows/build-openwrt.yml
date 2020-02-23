@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'x86.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: x86.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
