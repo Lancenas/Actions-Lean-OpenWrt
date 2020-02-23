@@ -1,3 +1,4 @@
+定制化编译的方法可以搭配使用，自己需要的功能一般也是固定的，就可以在 make menuconfig 选好后执行 ./scripts/diffconfig.sh > seed.config 复制一下这个seed.config的文本内容到项目根目录的.config文件中，这样就不用每次都SSH 连接到 Actions生成编译配置，真正一键编译。另外如果，使用“files 大法”仓库最好设为私有，否则你的配置信息，如宽带账号等会公开在网上。
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
