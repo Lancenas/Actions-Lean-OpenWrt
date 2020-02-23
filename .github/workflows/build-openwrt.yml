@@ -13,16 +13,14 @@ on:
     types: [published]
   push:
     branches:
-      - master
-    paths:
-      - 'x86.config'
+      - lienol-openwrt
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/lienol/openwrt
   REPO_BRANCH: master
   CONFIG_FILE: x86.config
   DIY_SH: diy.sh
