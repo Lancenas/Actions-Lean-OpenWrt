@@ -6,3 +6,4 @@
 - 自定义编译的方法可以搭配使用，自己需要的服务一般不会随意变化，就可以在 `make menuconfig` 选好后执行 `./scripts/diffconfig.sh > seed.config` 复制一下这个`seed.config`的文本内容到项目根目录的`.config`文件中（建议自命名），这样就不用每次都SSH连接到 Actions生成编译配置，真正一键编译。
 - 修改`.github/workflows/build-openwrt.yml`中`.config`为你的自命名###.config文件。
 - 另外如果，使用“files 大法”仓库最好设为私有，否则你的配置信息，如宽带账号等会公开在网上。
+- 如果需要可以编写多个`workflows`文件对应`###.config`，开启多流程同时编译。
