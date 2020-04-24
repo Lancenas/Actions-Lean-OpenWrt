@@ -22,7 +22,7 @@ on:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/lienol/openwrt
+  REPO_URL: https://github.com/Lancenas/openwrt.git
   REPO_BRANCH: dev-master
   CONFIG_FILE: x86.config
   DIY_SH: diy.sh
