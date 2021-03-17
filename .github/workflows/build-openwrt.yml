@@ -81,7 +81,7 @@ jobs:
         ../$DIY_P2_SH
 
     - name: SSH connection to Actions
-      uses: Lancenas/Actions-Lean-OpenWrt@v1.0.0
+      uses: Lancenas/Actions-Lean-OpenWrt@master
       if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
 
     - name: Download package
