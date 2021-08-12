@@ -2,8 +2,8 @@
 # https://github.com/Lancenas/Actions-Lean-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Author: Lancenas
-# Blog: https://mtom.ml
+# Author: P3TERX
+# Blog: https://P3TERX.com
 #=================================================
 
 name: Build OpenWrt
