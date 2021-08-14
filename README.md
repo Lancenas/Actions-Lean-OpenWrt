@@ -9,3 +9,4 @@
 - 修改`.github/workflows/build-openwrt.yml`中`.config`为你的自命名###.config文件。
 - 另外如果，使用“files 大法”仓库最好设为私有，否则你的配置信息，如宽带账号等会公开在网上。
 - 如果需要可以编写多个`workflows`文件对应`###.config`，开启多流程同时编译。
+- 在 Actions 页面选择Build OpenWrt，然后点击Run Workflow按钮，即可开始编译。（如果需要 SSH 连接则把SSH connection to Actions的值改为true)
