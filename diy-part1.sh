@@ -18,4 +18,4 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 
 # Lienol/openwrt-package
 # sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
-# sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall-packages' feeds.conf.default
